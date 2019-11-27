@@ -1,0 +1,42 @@
+  <?php
+    /**
+    * @file
+    * Install, update and uninstall functions for the d8_activity  module.
+    */
+
+  function  d8_activity_schema()
+    {
+      $schema['mydata'] = array(
+      'description' => 'My table description',
+
+      'fields' => array(
+      'id' => array(
+      'type' => 'serial',
+      'not null' => TRUE,
+      'description' => "Creator user id ",
+      ),
+
+      'first_name' => array(
+      'type' => 'varchar',
+      'length' => 255,
+      'not null' => TRUE,
+      'default' => '',
+      'description' => ' First name of the person.',
+      ),
+
+      'last_name' => array(
+      'type' => 'varchar',
+      'length' => 255,
+      'not null' => TRUE,
+      'default' => '',
+      'description' => 'Last name of the person.',
+      ),
+
+      ),
+      'primary key' => array('id'),
+      );
+      return $schema;
+    }
+
+
+

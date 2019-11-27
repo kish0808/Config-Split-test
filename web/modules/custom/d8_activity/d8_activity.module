@@ -1,0 +1,19 @@
+<?php
+
+
+/**
+ * Implements hook_theme().
+ */
+function d8_activity_theme() {
+    return [
+        'weather_info' => [
+            'variables' => [
+                'temp' => NULL,
+                'pressure' => NULL,
+                'humidity' => NULL,
+                'temp_min' => NULL,
+                'temp_max' => NULL,
+            ],
+        ],
+    ];
+}

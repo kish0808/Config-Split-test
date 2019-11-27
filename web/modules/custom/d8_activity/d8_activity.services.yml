@@ -1,0 +1,13 @@
+services:
+  d8_activity.entity_access_check:
+    class: 'Drupal\d8_activity\Access\EntityAccessCheck'
+    tags:
+      - { name: 'access_check', applies_to: '_d8_entity_access_check' }
+
+  d8_activity.dic_user_entry:
+    class: 'Drupal\d8_activity\DicUserEntry'
+    arguments: [ '@database' ]
+
+  d8_activity.weather_parser:
+    class: 'Drupal\d8_activity\WeatherParser'
+    arguments: [ '@http_client', '@config.factory' ]

@@ -1,0 +1,74 @@
+d8_activity.content:
+  path: '/content'
+  defaults:
+    _controller: 'Drupal\d8_activity\Controller\D8CustomController::content'
+    _tite: 'static route conten'
+  requirements:
+    _permission: 'access content'
+
+d8_activity.dynamic_content:
+  path: '/dynamic-content/{arg}'
+  defaults:
+    _controller: 'Drupal\d8_activity\Controller\D8CustomController::dynamicContent'
+    _title: 'Dynamic routing Content'
+    arg: 1
+  requirements:
+    _permission: 'access content'
+
+d8_activity.entity_content:
+  path: '/entity-content/{node}'
+  defaults:
+    _controller: 'Drupal\d8_activity\Controller\D8CustomController::entityContent'
+    _title: 'dynamic routing Entity as parameter'
+  requirements:
+    _permission: 'access content'
+
+d8_activity.multiple_content:
+  path: '/multiple-content/{node1}/{node2}'
+  defaults:
+    _controller: 'Drupal\d8_activity\Controller\D8CustomController::multipleContent'
+    _title: 'Multiple Entity Content'
+    node1: 1
+    node2: 2
+  options:
+    parameter:
+      node1:
+        type: entity:node
+      node2:
+        type: entity:node
+  requirements:
+    _permission: 'access content'
+
+d8_activity.simple_form:
+  path: '/simple-form'
+  defaults:
+    _form: 'Drupal\d8_activity\Form\D8SimpleCustomForm'
+    _title: 'Simple Form'
+  requirements:
+    _permission: 'access content'
+
+d8_activity.Dic_form:
+  path: '/dic-form'
+  defaults:
+    _form: 'Drupal\d8_activity\Form\D8DicForm'
+    _title: 'Dic Form'
+  requirements:
+    _permission: 'access content'
+
+d8.activity.State_form:
+  path: '/state-form'
+  defaults:
+    _form: '\Drupal\d8_activity\Form\D8StateForm'
+    _title: 'State Ajax Form Example'
+  requirements:
+    _permission: 'access content'
+
+d8_activity.weather_config:
+  path: '/admin/weather-config'
+  defaults:
+    _form: '\Drupal\d8_activity\Form\D8ConfigForm'
+    _title: 'Condig Form'
+  requirements:
+    _permission: 'access content'
+
+
