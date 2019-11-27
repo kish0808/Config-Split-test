@@ -1,0 +1,14 @@
+uuid: 07f7b42c-8c2c-4470-9ca9-662e0dfd393a
+name: 'Local Environment'
+mail: Test@123.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
