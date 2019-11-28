@@ -1,13 +1,12 @@
-uuid: a7453996-4004-4f1b-86e9-14dff96dfedd
+uuid: 53349a7c-6e12-4426-8018-71e8abd3d825
 langcode: en
 status: true
 dependencies: {  }
 id: prod
-label: 'Prod '
+label: Prod
 description: ''
 folder: ../config/prod
 module:
-  big_pipe: 0
   views_ui: 0
 theme: {  }
 blacklist: {  }

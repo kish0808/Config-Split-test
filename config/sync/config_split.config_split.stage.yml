@@ -1,4 +1,4 @@
-uuid: a2dfe982-c916-4d3e-a648-0d63c110800a
+uuid: 3c2d13ba-e46c-4013-a6ec-7c7ee5e85e2d
 langcode: en
 status: true
 dependencies: {  }
@@ -8,7 +8,7 @@ description: ''
 folder: ../config/stage
 module:
   big_pipe: 0
-  devel: 0
+  dblog: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }
