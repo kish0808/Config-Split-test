@@ -7,7 +7,7 @@ label: Prod
 description: ''
 folder: ../config/prod
 module:
-  views_ui: 0
+  basic_auth: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }
