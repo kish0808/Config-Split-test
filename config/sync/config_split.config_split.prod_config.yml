@@ -1,0 +1,15 @@
+uuid: 425eb889-4448-49ea-bc5f-016f0529d61a
+langcode: en
+status: true
+dependencies: {  }
+id: prod_config
+label: 'Prod config'
+description: ''
+folder: ../config/prod_config
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

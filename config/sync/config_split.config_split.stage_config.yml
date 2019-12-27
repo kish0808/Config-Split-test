@@ -1,0 +1,15 @@
+uuid: 443f4761-e8e4-458a-9f6e-1925eabacbe8
+langcode: en
+status: true
+dependencies: {  }
+id: stage_config
+label: 'Stage Config'
+description: ''
+folder: ../config/stage_config
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

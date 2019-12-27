@@ -1,0 +1,15 @@
+uuid: f929d375-b242-44ce-bc44-9032e71e0f2a
+langcode: en
+status: true
+dependencies: {  }
+id: local_config
+label: Local_config
+description: ''
+folder: ../config/local_config
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
